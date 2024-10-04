@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Descriptions</title>
+    <style> /* the whole style part was made by chat gpt because we didnt go over css yet*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3a3a3a00;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center the content horizontally */
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        .container:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        img {
+            max-width: 300px; /* Limit image width */
+            max-height: 400px; /* Limit image height */
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .description {
+            max-width: 600px;
+            color: #333;
+            flex: 1; /* Allows description to take available space */
+            text-align: left; /* Align text to the left */
+        }
+
+        .description h2 {
+            margin-bottom: 10px;
+            font-size: 22px;
+            color: #444;
+        }
+
+        .description p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+
+    <div class="container">
+        <div class="description">
+            <h2>"ALBERTA PROUD"</h2>
+            <p>>> JASON PROUDLY WEARING TWO ALBERTA FLAGS ON HIS HAT.</p>
+        </div>
+        <a href="photos/DZ0_3201-1-2.png">
+            <img src="photos/DZ0_3201-1-2.png" alt="DZ0_3201-1-2">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"SOMEONE"</h2>
+            <p>>> SOMEONE UNKNOWN FLYING THE ALBERTA FLAG.</p>
+        </div>
+        <a href="photos/DZ0_3208-1-2.png">
+            <img src="photos/DZ0_3208-1-2.png" alt="DZ0_3208-1-2">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"MUSTANG IN SIGHT"</h2>
+            <p>>> THEO GETTING READY FOR THE CONCERT.</p>
+        </div>
+        <a href="photos/DZ0_3210-1.png">
+            <img src="photos/DZ0_3210-1.png" alt="DZ0_3210-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"KEEP ROCKIN"</h2>
+            <p>>> THE FIRST SONG OF MANY AT THE HULAGENS CONCERT.</p>
+        </div>
+        <a href="photos/DZ0_3216-Edit-2-1.png">
+            <img src="photos/DZ0_3216-Edit-2-1.png" alt="DZ0_3216-Edit-2-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"BROTHERS"</h2>
+            <p>>> ONE OF MANY PHOTOS OF JASON AND THEO PLAYING TOGETHER AT THE HULAGENS CONCERT.</p>
+        </div>
+        <a href="photos/DZ0_3218-Edit-1.png">
+            <img src="photos/DZ0_3218-Edit-1.png" alt="DZ0_3218-Edit-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"MISS MISSERY"</h2>
+            <p>>> A PHOTO LIKE NO OTHER.</p>
+        </div>
+        <a href="photos/DZ0_3236-Edit-2-1.png">
+            <img src="photos/DZ0_3236-Edit-2-1.png" alt="DZ0_3236-Edit-2-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"THE TWINS"</h2>
+            <p>>> THE TWIN PAIR OF DRUMMER AND GUITARIST.</p>
+        </div>
+        <a href="photos/DZ0_3255-Edit-2-1.png">
+            <img src="photos/DZ0_3255-Edit-2-1.png" alt="DZ0_3255-Edit-2-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"A THOUSAND WORDS"</h2>
+            <p>>> THEO'S SINGING IS UNMATCHED BY ANYONE HIS AGE.</p>
+        </div>
+        <a href="photos/DZ0_3272-Edit-3-1.png">
+            <img src="photos/DZ0_3272-Edit-3-1.png" alt="DZ0_3272-Edit-3-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"PERSPECTIVE"</h2>
+            <p>>> ILAY PLAYING THE GUITAR</p>
+        </div>
+        <a href="photos/DZ0_3275-1-2.png">
+            <img src="photos/DZ0_3275-1-2.png" alt="DZ0_3275-1-2">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"jASON 1/ 3"</h2>
+            <p>>> JASON PLAYING ON THE ROCK GUITAR.</p>
+        </div>
+        <a href="photos/DZ0_3305-1-2.png">
+            <img src="photos/DZ0_3305-1-2.png" alt="DZ0_3305-1-2">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"JASON 2/ 3"</h2>
+            <p>>> JASON REALLY PLAYING ON THE ROCK GUITAR.</p>
+        </div>
+        <a href="photos/DZ0_3307-1.png">
+            <img src="photos/DZ0_3307-1.png" alt="DZ0_3307-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"JASON 3/ 3"</h2>
+            <p>>> JASON DECIDED TO CHILL FOR A BIT ON THE GUITAR.</p>
+        </div>
+        <a href="photos/DZ0_3324-1-2.png">
+            <img src="photos/DZ0_3324-1-2.png" alt="DZ0_3324-1-2">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"THE WHOLE BAND"</h2>
+            <p>>> EVERYONE PLAYING TOGETHER.</p>
+        </div>
+        <a href="photos/DZ0_3329-Edit-2-1.png">
+            <img src="photos/DZ0_3329-Edit-2-1.png" alt="DZ0_3329-Edit-2-1">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"MEW MAXXING"</h2>
+            <p>>> LIAM PLAYING THE DRUMS.</p>
+        </div>
+        <a href="photos/DZ0_3382-1-2.png">
+            <img src="photos/DZ0_3382-1-2.png" alt="DZ0_3382-1-2">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="description">
+            <h2>"THE BROTHERS IN SYNC"</h2>
+            <p>>> BOTH JASON AND THEO PLAYING THE LAST SONG TOGETHER.</p>
+        </div>
+        <a href="photos/DZ0_3386-Edit-2-1.png">
+            <img src="photos/DZ0_3386-Edit-2-1.png" alt="DZ0_3386-Edit-2-1">
+        </a>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MA72tYKMNgM?si=cWO4s470XZTUuFKn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160599.8994895216!2d-114.25263944489124!3d51.02772334687566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1727966310238!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VZ0icXOY1HKw0DyuyVnOm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</body>
+</html>
